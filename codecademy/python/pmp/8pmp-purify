@@ -1,0 +1,23 @@
+"""
+Practice Makes Perfect!!!
+"""
+
+"""
+Purify!!!
+Define a function called purify that takes in a list of numbers,
+removes all odd numbers in the list, and returns the result.
+
+For example, purify([1,2,3]) should return [2].
+"""
+dirty_list = [1, 2, 3]
+print(dirty_list)
+
+def purify(dirty_list):
+    purified_list = []
+    
+    for i in dirty_list:
+        if i % 2 == 0:
+            purified_list.append(i) 
+    return purified_list
+
+print(purify(dirty_list))
