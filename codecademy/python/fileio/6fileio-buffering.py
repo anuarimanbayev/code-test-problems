@@ -10,7 +10,5 @@ write_file = open("text.txt", "w")
 # Write to the file
 write_file.write("Not closing files is VERY BAD.")
 
-
-
 # Try to read from the file
 print read_file.read()
