@@ -2,8 +2,8 @@
 # File I/O: File Input/Output
 # PSA: Buffering Data #5
 """
-Note that we don't explicitly close() our file,
-and remember that if we don't close a file, our data
+Note that we don't explicitly close() our file, and
+remember that if we don't close a file, our data
 will get stuck in the buffer.
 """
 
